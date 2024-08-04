@@ -1,4 +1,3 @@
-
 <template>
     <!-- <div>oiii</div>
     <div class="bg-red-400" v-for="svg in svgs">
@@ -8,19 +7,34 @@
     <div>
         <NuxtLink to="/about">aa</NuxtLink>
     </div> -->
-    <div class="bg-[#FCFFFE] h-full">
+    <div class="bg-[#FCFFFE] h-full text-majari">
         <div class=" flex justify-center h-screen items-end bg-center bg cover bg-[url('public/radialgradient.png')]">
-            <div class=" pb-32">
+            <div class=" pb-32 flex flex-col gap-4">
                 <!-- title -->
                 <div class="flex flex-col gap-9">
                     <div class="flex gap-10  justify-center place-items-center">
                         <span class="text-8xl text-white bg-blue-500 rounded-xl p-7">Hy</span>
                         <span class="text-7xl">i am</span>
                     </div>
-                    <div class="text-9xl">Gabriel Koehler</div>
+                    <div class="text-9xl">Gabriel <span class="text-blue-500">Koehler</span> </div>
                 </div>
                 <!-- buttons -->
-                <div></div>
+                <div class="flex  gap-10 text-white justify-center w-full">
+                    <a href="https://github.com/gabriel-Koehler" target="_blank">
+                        <div
+                            class="bg-blue-950 hover:shadow-xl hover:bg-blue-800 cursor-pointer w-max px-8 rounded-md flex gap-4 items-center py-3">
+                            <img src="/iconGithub.svg" class="w-8" alt="">
+                            <div>Github</div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabriel-koehler-da-silva-780915238/" target="_blank">
+                        <div
+                            class="bg-blue-950 hover:shadow-xl hover:bg-blue-800 cursor-pointer w-max px-8 rounded-md flex gap-4 items-center py-3">
+                            <img src="/iconLinkedin.svg" class="w-8" alt="">
+                            <div>Linkedin</div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -31,5 +45,5 @@
     <FifithSection></FifithSection>
 </template>
 <script setup>
-let svgs = ref(['/adobeillustratoricon.svg','/gitscmicon.svg'])
+
 </script>

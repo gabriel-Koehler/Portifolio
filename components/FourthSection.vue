@@ -1,18 +1,19 @@
 <template>
-    <div class="w-full h-screen">
-        <div class="">
+    <div class="w-full h-screen bg-[#FCFFFE] ">
+        <div class="flex flex-col gap-40 justify-center items-center">
             <!-- title -->
-            <div class="w-6 h-3">
-                {{ teste }}
+            <div class="flex justify-center mt-20 w-6 text-[3vw] h-3">
+                Abbilitys
             </div>
             <!-- list -->
-            <div class="flex flex-wrap justify-center gap-24">
-                <div v-for="item in items">
-                    
+            <div class="flex flex-wrap justify-center w-[60%] gap-24">
+                <div v-for="item in items"
+                    class="border-2 w-[12%] py-6 flex gap-4 flex-col justify-center items-center rounded-md hover:shadow-xl hover:-translate-y-2">
+
                     <!-- <div :class="[url(item.image)]"></div> -->
                     <!-- <NuxtImg :src="item.image"></NuxtImg> -->
                     <img :src="item.image" class="h-10 w-10" alt="">
-                    <div><a :href="item.linkWeb">{{item.name}}</a></div>
+                    <div><a :href="item.linkWeb" target="_blank">{{item.name}}</a></div>
                 </div>
             </div>
         </div>
@@ -27,7 +28,6 @@ interface abbility {
 }
 const url=(a)=>{return "h-20 w-20 bg-center bg-cover bg-no-repeat bg-[url('"+a+"')]"}
 const classStyle=ref("h-20 w-20 bg-[url('/angularicon.svg')]")
-const teste = ref('')
 const items = ref<abbility[]>([])
 items.value=[
     {

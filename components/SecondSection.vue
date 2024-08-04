@@ -8,15 +8,15 @@
     flex 
     justify-center 
     items-center 
-    px-[15%]">
+    px-[15%]
+    ">
 
         <div class="
         flex 
         justify-center 
         items-center 
         w-[100%]">
-            <div class="
-            z-40 
+            <div class=" 
             flex-col 
             items-center">
                 <div class="
@@ -54,7 +54,7 @@
                 bg-cover
                 bg-[url('public/radialpng.png')]
                 "></div>
-                <Illustration class="z-[999999] w-[140%]"></Illustration>
+                <Illustration class="z-[999999] !bg-transparent  w-[140%]"></Illustration>
             </div>
         </div>
     </div>
