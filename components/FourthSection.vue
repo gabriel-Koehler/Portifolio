@@ -8,7 +8,7 @@
             <!-- list -->
             <div class="flex flex-wrap justify-center w-[60%] gap-24">
                 <div v-for="item in items"
-                    class="border-2 w-[12%] py-6 flex gap-4 flex-col justify-center items-center rounded-md hover:shadow-xl hover:-translate-y-2">
+                    class="border-2 w-[12%] py-6 flex gap-4 flex-col justify-center items-center transition rounded-md hover:shadow-xl hover:-translate-y-2">
 
                     <!-- <div :class="[url(item.image)]"></div> -->
                     <!-- <NuxtImg :src="item.image"></NuxtImg> -->
@@ -26,7 +26,7 @@ interface abbility {
     linkWeb:string,
     name:string
 }
-const url=(a)=>{return "h-20 w-20 bg-center bg-cover bg-no-repeat bg-[url('"+a+"')]"}
+const url=(a:any)=>{return "h-20 w-20 bg-center bg-cover bg-no-repeat bg-[url('"+a+"')]"}
 const classStyle=ref("h-20 w-20 bg-[url('/angularicon.svg')]")
 const items = ref<abbility[]>([])
 items.value=[

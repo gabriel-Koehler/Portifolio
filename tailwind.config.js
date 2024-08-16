@@ -2,8 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
-  },
+      fontFamily:{
+        Kanit:['Kanit','serif'],
+        Manjari:['Manjari','serif']
+      }
+    },
   plugins: [],
 }
 

@@ -11,8 +11,8 @@ export default defineNuxtConfig({
   ],
   googleFonts:{
     families:{
-      Manjari:[400,500],
-      Kanit:[400,500]
+      Manjari:true,
+      Kanit:true
     }
   }
 })

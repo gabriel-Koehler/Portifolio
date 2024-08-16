@@ -7,9 +7,11 @@
     <div>
         <NuxtLink to="/about">aa</NuxtLink>
     </div> -->
-    <div class="bg-[#FCFFFE] h-full text-majari">
+    <div >  
+        
         <div class=" flex justify-center h-screen items-end bg-center bg cover bg-[url('public/radialgradient.png')]">
-            <div class=" pb-32 flex flex-col gap-4">
+            
+            <div class=" pb-32 flex flex-col gap-4 ">
                 <!-- title -->
                 <div class="flex flex-col gap-9">
                     <div class="flex gap-10  justify-center place-items-center">
