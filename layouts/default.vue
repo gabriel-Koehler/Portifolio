@@ -16,10 +16,10 @@
         gap-4 
         shadow-lg
         ">
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Abbilitys</div>
-            <div>Contact</div>
+            <div><a href="#AboutMe">About Me</a></div>
+            <div><a href="#Projects">Projects</a></div>
+            <div><a href="#Skills">Skills</a></div>
+            <div><a href="#ContactMe">Contact me</a></div>
         </div>
         <slot class="re Z-[0]" />
     </div>

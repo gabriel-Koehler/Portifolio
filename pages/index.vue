@@ -18,7 +18,7 @@
                         <span class="text-8xl text-white bg-blue-500 rounded-xl p-7">Hy</span>
                         <span class="text-7xl">i am</span>
                     </div>
-                    <div class="text-9xl">Gabriel <span class="text-blue-500">Koehler</span> </div>
+                    <div class="text-9xl font-Questrial">Gabriel <span class="font-Questrial text-blue-500">Koehler</span> </div>
                 </div>
                 <!-- buttons -->
                 <div class="flex  gap-10 text-white justify-center w-full">

@@ -1,5 +1,5 @@
 <template>
-    <div class="
+    <div id="AboutMe" class="
     pb-72
     h-screen 
     overflow-x-hidden 
@@ -25,7 +25,8 @@
                 border-b-2 
                 pb-4 
                 w-max 
-                pr-[25%]">Sobre Mim</div>
+                pr-[25%]
+                font-Questrial" >About me</div>
                 <div class="
                 text-2xl w-[650px]">
                     text

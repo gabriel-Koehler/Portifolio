@@ -1,9 +1,9 @@
 <template>
-    <div class="w-full h-screen bg-[#FCFFFE] ">
+    <div id="Skills" class="w-full  min-h-max bg-[#FCFFFE] ">
         <div class="flex flex-col gap-40 justify-center items-center">
             <!-- title -->
-            <div class="flex justify-center mt-20 w-6 text-[3vw] h-3">
-                Abbilitys
+            <div class="flex justify-center font-Questrial mt-20 w-6 text-[3vw] h-3">
+                Skills
             </div>
             <!-- list -->
             <div class="flex flex-wrap justify-center w-[60%] gap-24">

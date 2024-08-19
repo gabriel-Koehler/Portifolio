@@ -4,7 +4,8 @@ export default {
   theme: {
       fontFamily:{
         Kanit:['Kanit','serif'],
-        Manjari:['Manjari','serif']
+        Manjari:['Manjari','serif'],
+        Questrial:['Questrial']
       }
     },
   plugins: [],

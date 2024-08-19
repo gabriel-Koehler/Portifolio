@@ -1,7 +1,7 @@
 <template>
-    <div class="backGround w-full h-screen">
+    <div id="Projcts" class="backGround w-full font-Questrial h-screen">
         <div>
-            Projetos
+            Projects
         </div>
     </div>
 </template>

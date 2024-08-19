@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules:[
-    '',
+    '@hypernym/nuxt-gsap',
     '@nuxtjs/tailwindcss',
     'nuxt-svgo-loader',
     '@nuxtjs/google-fonts',
@@ -12,7 +12,8 @@ export default defineNuxtConfig({
   googleFonts:{
     families:{
       Manjari:true,
-      Kanit:true
+      Kanit:true,
+      Questrial:true
     }
   }
 })
