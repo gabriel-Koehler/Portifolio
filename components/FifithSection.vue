@@ -7,15 +7,20 @@
                 <img src="/dialog.svg" class="w-[9vw]" alt=""> Contate-me
             </div>
             <div class="pl-[9vw]">
+                
                 <div class="flex items-center pb-5  text-[1.2vw] text-white">
                     <span class="pr-4"><img src="/email.svg" class="w-14" alt=""></span>ggaabbrriieellks@gmail.com
                 </div>
-                <div class="flex items-center pb-5  text-[1.2vw] text-white">
-                    <span class="pr-4"><img src="/github.svg" class="w-14" alt=""></span>gabriel-Koehler
-                </div>
-                <div class="trow flex items-center pb-5  text-[1.2vw] text-white">
-                    <span class="pr-4"><img src="/linkedin.svg" class="w-14" alt=""></span>Gabriel Koehler da Silva
-                </div>
+                <a href="https://github.com/gabriel-Koehler" target="_blank" >
+                    <div class="flex items-center pb-5  text-[1.2vw] text-white">
+                        <span class="pr-4"><img src="/github.svg" class="w-14" alt=""></span>gabriel-Koehler
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-koehler-da-silva-780915238/" target="_blank" >
+                    <div class="hover: trow flex items-center pb-5  text-[1.2vw] text-white">
+                        <span class="pr-4"><img src="/linkedin.svg" class="w-14" alt=""></span>Gabriel Koehler da Silva
+                    </div>
+                </a>
             </div>
         </div>
         <ProgrammingIllustration>

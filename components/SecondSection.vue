@@ -1,11 +1,11 @@
 <template>
     <div id="AboutMe" class="
     pb-72
-    h-screen 
+    
     overflow-x-hidden 
     overflow-y-hidden 
     w-full 
-    flex 
+    lg:flex 
     justify-center 
     items-center 
     px-[15%]
