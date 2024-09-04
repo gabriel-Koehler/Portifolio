@@ -23,6 +23,6 @@
             <div><a href="#Skills">Skills</a></div>
             <div><a href="#ContactMe">Contact me</a></div>
         </div>
-        <slot class="Z-0" />
+        <slot class="flex Z-0 w-full" />
     </div>
 </template>

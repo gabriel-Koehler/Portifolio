@@ -1,16 +1,8 @@
 <template>
-    <!-- <div>oiii</div>
-    <div class="bg-red-400" v-for="svg in svgs">
-        {{ svg }}
-        <img :src="svg" alt="">
-    </div>
-    <div>
-        <NuxtLink to="/about">aa</NuxtLink>
-    </div> -->
-    <div class="z-10">
+    <div class="z-10 ">
         <div >  
             
-            <div class=" flex justify-center h-screen items-end bg-center bg cover bg-[url('public/radialgradient.png')]">
+            <div class=" flex justify-center h-screen items-end bg-center bg-cover bg-[url('public/radialgradient.png')]">
                 
                 <div class=" pb-32 flex flex-col gap-4 font-Kanit ">
                     <!-- title -->
@@ -58,10 +50,10 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { TextPlugin } from "gsap/TextPlugin";
 
 /* The following plugins are Club GSAP perks */
-import { ScrollSmoother } from "gsap/ScrollSmoother";
-import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
+// import { ScrollSmoother } from "gsap/ScrollSmoother";
+// import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 
-gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,TextPlugin,ScrollSmoother,ScrambleTextPlugin);
+// gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,TextPlugin,ScrollSmoother,ScrambleTextPlugin);
 
 onMounted(()=>{
     gsap.to('#Scramble',{duration:4,scrambleText:"legal hehehehheh"})   

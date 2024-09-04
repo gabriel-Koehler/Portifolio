@@ -7,14 +7,18 @@
             </div>
             <!-- list -->
             <div class="flex flex-wrap justify-center w-[60%] gap-24">
-                <div v-for="item in items"
-                    class="border-2 w-[12%] py-6 flex gap-4 flex-col justify-center items-center transition rounded-md hover:shadow-xl hover:-translate-y-2">
-
-                    <!-- <div :class="[url(item.image)]"></div> -->
-                    <!-- <NuxtImg :src="item.image"></NuxtImg> -->
-                    <img :src="item.image" class="h-10 w-10" alt="">
-                    <div><a :href="item.linkWeb" target="_blank">{{item.name}}</a></div>
+                
+                <div v-for="item in items">
+                    <a :href="item.linkWeb" target="_blank">
+                        <div class="border-2 min-w-[150px] p-6 flex gap-4 flex-col justify-center items-center transition rounded-md hover:shadow-xl hover:-translate-y-2">
+                            <!-- <div :class="[url(item.image)]"></div> -->
+                            <!-- <NuxtImg :src="item.image"></NuxtImg> -->
+                            <img :src="item.image" class="h-10 w-10" alt="">
+                            <div>{{item.name}}</div>
+                        </div>
+                    </a>
                 </div>
+
             </div>
         </div>
     </div>

@@ -1,11 +1,12 @@
 <template>
     <div id="AboutMe" class="
-    pb-72
+    lg:pb-72
     
     overflow-x-hidden 
     overflow-y-hidden 
     w-full 
-    lg:flex 
+    lg:flex
+    lg:gap-4 
     justify-center 
     items-center 
     px-[15%]
@@ -28,10 +29,9 @@
                 pr-[25%]
                 font-Questrial" >About me</div>
                 <div class="
-                text-2xl w-[650px]">
+                sm:text-base lg:text-2xl max-w-[650px]">
                     text
-                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem
-                    Lorem
+                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem
                     impusem Lorem impusem
                     Lorem impusem Lorem impusem Lorem impusem Lorem impusem
                     Lorem impusem Lorem impusem Lorem impusem Lorem impusem
@@ -42,23 +42,22 @@
             </div>
         </div>
 
-        <div class="pt-80 ">
-            <div class="justify-center w-full relative items-center">
-                <div class="absolute
+        <div class="lg:pt-80 flex justify-center">
+            <div class="justify-center sm:w-[400px] lg:w-[40vw] relative items-center">
+                <!-- <div class="absolute
                 w-[195%]
                 h-[130%]
                 -bottom-[18%]
                 
                 -right-[70%]
                 -z-10
-                bg-center
-                bg-cover
-                bg-[url('public/radialpng.png')]
-                "></div>
-                <Illustration class="z-[999999] !bg-transparent  w-[140%]"></Illustration>
+                
+                "></div> -->
+                <Illustration class="z-[999999] !bg-transparent h-max  w-[100%]"></Illustration>
             </div>
         </div>
     </div>
 </template>
-
+<style scoped>
+</style>
 
