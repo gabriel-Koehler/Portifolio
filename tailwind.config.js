@@ -6,7 +6,10 @@ export default {
         Kanit:['Kanit','serif'],
         Manjari:['Manjari','serif'],
         Questrial:['Questrial']
-      }
+      },
+      // screens:{
+      //   'celular':'200px',
+      // }
     },
   plugins: [],
 }
