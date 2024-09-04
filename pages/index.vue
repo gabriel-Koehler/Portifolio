@@ -1,17 +1,22 @@
 <template>
     <div class="z-10 ">
-        <div >  
-            
-            <div class=" flex justify-center h-screen items-end bg-center bg-cover bg-[url('public/radialgradient.png')]">
-                
-                <div class=" pb-32 flex flex-col gap-4 font-Kanit ">
+        <div>
+            <div class=" flex justify-center h-screen items-end ">
+                <div class=" gradientIconic absolute z-0 w-full h-screen"></div>
+
+                <div class=" pb-32 flex flex-col gap-4 font-Kanit z-20 ">
                     <!-- title -->
-                    <div class="flex flex-col gap-9">
+                    <div class="flex flex-col lg:gap-9">
                         <div class="flex gap-10  justify-center place-items-center">
                             <span class="text-8xl text-white bg-blue-500 rounded-xl p-7">Hy</span>
-                            <span class="text-7xl">i am</span>
+                            <span class="text-7xl text-blue-500">i am</span>
                         </div>
-                        <div id="Scramble" class="text-9xl font-Questrial">Gabriel <span class="font-Questrial text-blue-500">Koehler</span> </div>
+                        <div id="Scramble" class="text-9xl lg:flex-none sm:flex-col text-white font-Questrial">
+                            Gabriel 
+                            <span class="font-Questrial text-blue-500">
+                                Koehler
+                            </span> 
+                        </div>
                     </div>
                     <!-- buttons -->
                     <div class="flex  gap-10 text-white justify-center w-full">
@@ -32,7 +37,7 @@
                     </div>
                 </div>
             </div>
-    
+
         </div>
         <SecondSection></SecondSection>
         <ThirdSection></ThirdSection>
@@ -42,7 +47,7 @@
 </template>
 <script setup>
 import { gsap } from "gsap";
-    
+
 import { Flip } from "gsap/Flip";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Observer } from "gsap/Observer";
@@ -55,7 +60,20 @@ import { TextPlugin } from "gsap/TextPlugin";
 
 // gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,TextPlugin,ScrollSmoother,ScrambleTextPlugin);
 
-onMounted(()=>{
-    gsap.to('#Scramble',{duration:4,scrambleText:"legal hehehehheh"})   
+onMounted(() => {
+    gsap.to('#Scramble', { duration: 4, scrambleText: "legal hehehehheh" })
 })
 </script>
+<style>
+.gradientIconic {
+    background: conic-gradient(from 180deg at 50% 50%, #88d4ff, rgba(255, 252, 252, 0));
+
+}
+
+@media (max-width: 868px) {
+    .gradientIconic {
+        background: conic-gradient(from -90deg at 50% 50%, #88d4ff, rgba(255, 252, 252, 0));
+
+    }
+}
+</style>

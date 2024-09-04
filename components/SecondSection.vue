@@ -1,12 +1,13 @@
 <template>
     <div id="AboutMe" class="
-    lg:pb-72
-    
+    pb-72
+    flex
     overflow-x-hidden 
     overflow-y-hidden 
     w-full 
-    lg:flex
-    lg:gap-4 
+    lg:flex-row
+    sm:flex-col
+    gap-8 
     justify-center 
     items-center 
     px-[15%]
@@ -24,20 +25,14 @@
                 text-7xl 
                 mb-20 
                 border-b-2 
-                pb-4 
+                pb-4
+                pt-20 
                 w-max 
                 pr-[25%]
                 font-Questrial" >About me</div>
                 <div class="
-                sm:text-base lg:text-2xl max-w-[650px]">
-                    text
-                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem impusem Lorem
-                    impusem Lorem impusem
-                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem
-                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem
-                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem
-                    Lorem impusem Lorem impusem Lorem impusem
-                    Lorem impusem Lorem impusem Lorem impusem Lorem impusem
+                sm:text-base lg:text-[1.5vw] sm:max-w-[650px] ">
+                I am simple person that like  creating things, any things. The possibility of imagination is  incredible. So like learn about many thing as like create poems, music, texts, design, UI design, and this is associate with  resolve problems. This is my essence. I love music whatever i like, as like  Rock, Country, Pop, Rap, Trap, Raggae, Souls, R&B, Brazilian Funk, Samba, Metal and others, i like explore. Reading is a good habit that i like to pratice  from a boo for entertainment or even one to learn. Everything is useful from them, just think that you can lear good lessons. Romances and mysteries are my favorites. I love watching series.Crime and suspense are the ones i watch most but  there is one that is special, “Friends”, this one is amzing. 
                 </div>
             </div>
         </div>

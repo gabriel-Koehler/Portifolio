@@ -2,7 +2,7 @@
     <div id="Skills" class="w-full  min-h-max bg-[#FCFFFE] ">
         <div class="flex flex-col gap-40 justify-center items-center">
             <!-- title -->
-            <div class="flex justify-center font-Questrial mt-20 w-6 text-[3vw] h-3">
+            <div class="flex justify-center font-Questrial mt-20 w-max border-b-2 pb-4 px-[5%]  text-7xl ">
                 Skills
             </div>
             <!-- list -->
